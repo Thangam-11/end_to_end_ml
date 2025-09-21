@@ -1,0 +1,27 @@
+venv/
+venv/
+__pycache__/    
+*.pyc
+.DS_Store
+.ipynb_checkpoints
+.env
+.env.*
+*.log   
+.idea/
+.vscode/
+dist/
+build/
+*.egg-info/ 
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+.pyre/
+.pytype/
+celerybeat-schedule
+instance/
+ml_project.sqlite3
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints         
