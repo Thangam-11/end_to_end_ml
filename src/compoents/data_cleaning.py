@@ -9,7 +9,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from src.exceptions import MLProjectException
 from src.logging_system import MLProjectLogger
-from src.data_ingestion import DataIngestion  # ✅ for standalone run
+from src.compoents.data_ingestion import DataIngestion  # ✅ for standalone run
 
 
 class DataCleaning:

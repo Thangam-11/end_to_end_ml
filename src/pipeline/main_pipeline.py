@@ -7,10 +7,10 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 from src.logging_system import MLProjectLogger
 from src.config_manager import ConfigManager
-from src.data_ingestion import DataIngestion
-from src.data_cleaning import DataCleaning
-from src.data_splitter import DataSplitter
-from src.model_trainer import ModelTrainer
+from src.compoents.data_ingestion import DataIngestion
+from src.compoents.data_cleaning import DataCleaning
+from src.compoents.data_splitter import DataSplitter
+from src.compoents.model_trainer import ModelTrainer
 import pandas as pd
 
 

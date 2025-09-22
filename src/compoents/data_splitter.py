@@ -63,8 +63,8 @@ class DataSplitter:
 # ------------------ Run as script ------------------
 if __name__ == "__main__":
     try:
-        from src.data_ingestion import DataIngestion
-        from src.data_cleaning import DataCleaning
+        from src.compoents.data_ingestion import DataIngestion
+        from src.compoents.data_cleaning import DataCleaning
 
         # 1. Load raw data
         df = DataIngestion().load_data()
