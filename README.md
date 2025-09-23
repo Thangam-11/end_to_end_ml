@@ -1,6 +1,5 @@
 # Complete ML Project Structure - Teaching Guide 🎓
 
-## 1. **Project Overview (5 minutes)**
 
 ### **What We're Building:**
 A **Water Quality Classification System** that predicts if water is safe to drink based on chemical parameters.
@@ -13,7 +12,7 @@ A **Water Quality Classification System** that predicts if water is safe to drin
 
 ---
 
-## 2. **Project Architecture Deep Dive (15 minutes)**
+## 2. **Project Architecture 
 
 ### **Complete File Structure:**
 ```
@@ -45,7 +44,7 @@ ml_project/
 
 ---
 
-## 3. **Core Components Explanation (20 minutes)**
+## 3. **Core Components Explanation**
 
 ### **A. Data Ingestion (`data_ingestion.py`)**
 ```python
@@ -129,7 +128,7 @@ class ModelEvaluator:
 
 ---
 
-## 4. **Support Systems (10 minutes)**
+## 4. **Support Systems **
 
 ### **A. Configuration Management (`config_manager.py`)**
 ```yaml
@@ -210,7 +209,7 @@ class WaterSafetyMLPipeline:
 
 ---
 
-## 6. **Advanced Features Walkthrough (10 minutes)**
+## 6. **Advanced Features Walkthrough **
 
 ### **A. Feature Engineering (`feature_engineering.py`)**
 ```python
@@ -243,7 +242,7 @@ artifacts/
 
 ---
 
-## 7. **Interactive Demo Script (15 minutes)**
+## 7. **Interactive Demo Script *
 
 ### **Live Coding Session:**
 
@@ -299,7 +298,7 @@ for result in results:
 
 ---
 
-## 10. **Real-World Connections (5 minutes)**
+## 10. **Real-World Connections *
 
 ### **This Structure Powers:**
 - **Netflix**: Recommendation systems
